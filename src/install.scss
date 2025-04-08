@@ -1,9 +1,6 @@
-.init-nodejs-project,
-.init-angular-project,
-pre,
-code,
-.install-angular{
-    width: 100vw;
-    height: 100vh;
-
+/** @format */
+.reveal code.one-line {
+  text-align: left;
+  white-space: pre-wrap; /* Permet le retour à la ligne automatique */
+  word-wrap: break-word; /* Assure que les mots longs sont coupés pour éviter le dépassement */
 }
