@@ -17,6 +17,7 @@ import bash from "highlight.js/lib/languages/bash";
 import javascript from "highlight.js/lib/languages/javascript";
 
 hljs.registerLanguage("bash", bash);
+hljs.registerLanguage("batch", bash); // Pour les fichiers .bat
 hljs.registerLanguage("javascript", javascript);
 
 // Tes fichiers SCSS persos
@@ -26,6 +27,7 @@ import "./idee.scss";
 import "./amphenol.scss";
 import "./presentation.scss";
 import "./install.scss";
+import "./demo_serveur.scss";
 
 // Initialisation de Reveal.js
 Reveal.initialize({
